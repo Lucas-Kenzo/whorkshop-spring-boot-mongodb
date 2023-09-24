@@ -1,4 +1,4 @@
-package com.kenzo.wokshopmongo;
+package com.kenzo.workshopmongo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

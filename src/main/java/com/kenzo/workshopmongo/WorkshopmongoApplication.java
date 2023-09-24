@@ -1,13 +1,13 @@
-package com.kenzo.wokshopmongo;
+package com.kenzo.workshopmongo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WokshopmongoApplication {
+public class WorkshopmongoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WokshopmongoApplication.class, args);
+		SpringApplication.run(WorkshopmongoApplication.class, args);
 	}
 
 }
