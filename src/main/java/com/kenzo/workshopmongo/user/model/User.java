@@ -13,13 +13,15 @@ public class User implements Serializable {
     private String id;
     private String name;
     private String email;
+    private String cpf;
 
     public User(){}
 
-    public User(String id, String nome, String email) {
+    public User(String id, String nome, String email, String cpf) {
         this.id = id;
         this.name = nome;
         this.email = email;
+        this.cpf = cpf;
     }
 
     public String getId() {
@@ -44,6 +46,14 @@ public class User implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 
     @Override

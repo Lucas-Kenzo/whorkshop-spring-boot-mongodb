@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 public class UserDTO implements Serializable {
 
-    private String id;git status
+    private String id;
     private String name;
     private String email;
 
@@ -41,4 +41,5 @@ public class UserDTO implements Serializable {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }
